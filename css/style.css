@@ -1,0 +1,82 @@
+.mainWrapper{
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "Arial MT";
+    font-weight: 400;
+}
+
+/* -----------Начало блока header----------- */
+header {
+    height: 323px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #445162;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+
+    display: flex;
+}
+
+header > .list {
+    width: 60%;
+}
+
+.list > ul {
+    margin: 50px 0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.list ul>li {
+    position: relative;
+    left: 20px;
+}
+
+.list ul>li::before {
+    display: block;
+    content: "✔";
+    color: #ffffff;
+    position: absolute;
+    left: -20px;
+}
+
+.list > h1 {
+    margin: 50px 0 0 50px;
+    font-size: 60px;
+}
+
+.imgContainer > .img {
+    margin: 50px;
+    background-color: #ffffff;
+}
+
+/* --------------Конец блока header------------- */
+
+/* ----------- Налоча секции About your product------------------- */
+
+.about {
+    height: 343px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 36px;
+
+    display: flex;
+}
+
+.about > .text{
+    margin: 50px;
+    width: 60%;
+}
+
+.about > h2 {
+    color: #445161;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.video {
+    width: 430px;
+    height: 245px;
+    margin: 50px;
+    background-color: #445161;
+}
+/*-------------- Конец секции About your product------------------ */
