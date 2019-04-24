@@ -86,3 +86,13 @@ header > .list {
     display: flex;
     background-color: #f5f5f5;
 }
+
+.scrinshots {
+    height: 487px;
+    background-color: #ffffff;
+}
+
+.reviews {
+    height: 424px;
+    background-color: #f5f5f5;
+}
