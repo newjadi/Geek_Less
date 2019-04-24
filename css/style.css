@@ -84,7 +84,15 @@ header > .list {
 .dignity {
     height: 420px;
     display: flex;
+    justify-content: center;
     background-color: #f5f5f5;
+}
+
+.dignity > p {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .scrinshots {
