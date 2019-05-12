@@ -169,14 +169,21 @@ figcaption {
 .reviews {
     height: 424px;
     background-color: #f5f5f5;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .reviews-title {
-
+    text-align: center;
+    margin: 50px 0 20px 0;
+    flex-basis: 1280px;
+    font-size: 30px;
 }
 
 .reviews-text {
-
+    width: 50%;
 }
 
 .reviews-img {
