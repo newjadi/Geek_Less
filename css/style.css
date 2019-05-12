@@ -5,7 +5,7 @@
     font-weight: 400;
 }
 
-/* -----------Начало блока header----------- */
+/* ------------------Начало блока header---------------- */
 header {
     height: 323px;
     color: #ffffff;
@@ -49,9 +49,9 @@ header > .list {
     background-color: #ffffff;
 }
 
-/* --------------Конец блока header------------- */
+/* ------------------Конец блока header------------------ */
 
-/* ----------- Начало секции About your product------------------- */
+/* ----------- Начало секции About your product---------- */
 
 .about {
     height: 343px;
@@ -79,9 +79,9 @@ header > .list {
     margin: 50px;
     background-color: #445161;
 }
-/*-------------- Конец секции About your product------------------ */
+/*----------- Конец секции About your product------------- */
 
-/* ----------- Начало секции Dignity and pluses product------------------- */
+/* ----- Начало секции Dignity and pluses product--------- */
 .dignity {
     width: 100%;
     height: 420px;
@@ -128,13 +128,39 @@ header > .list {
     top: 0;
     left: -46px;
 }
-/*-------------- Конец секции Dignity and pluses product------------------ */
+/*-------- Конец секции Dignity and pluses product--------- */
 
 /* ----------- Начало секции Scrinshots ------------------- */
 .scrin {
     height: 487px;
     background-color: #ffffff;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
+
+.scrin-title {
+    flex-basis: 1280px;
+    font-size: 30px;
+}
+
+.scrin-block {
+    width: 43%;
+
+    display: flex;
+}
+
+figcaption {
+    margin-left: 20px;
+}
+
+.scrin-img {
+    float: left;
+    background-color: #445161;
+}
+
 /*-------------- Конец секции Scrinshots ------------------ */
 .reviews {
     height: 424px;
