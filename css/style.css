@@ -195,7 +195,92 @@ figcaption {
 
 /*--------------- Начало секции Buy it now ----------------*/
 .buy {
+    height: 656px;
+    padding: 0 145px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.buy-title {
+    text-align: center;
+
+    flex-basis: 1280px;
+    align-self: flex-start;
+}
+
+.container {
+    width: 300px;
+    color: #ffffff;
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #445161;
+}
+
+.buy-title-stanfart,
+.buy-title-premium,
+.buy-title-lux {
+    text-align: center;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.buy-price {
+    width: 99%;
+    height: 71px;
+    color: #445162;
+    background-color: #ffffff;
     
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;    
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-list > li {
+    list-style-position: inside;
+
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button {
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+    color: #445161;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.buy-standart{
+    height: 306px;
+}
+
+.buy-premium{
+    height: 404px;
+}
+
+.buy-lux{
+    height: 499px;
 }
 /*--------------- Конец секции Buy it now -----------------*/
 
