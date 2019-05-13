@@ -246,7 +246,9 @@ figcaption {
     align-items: center;
     justify-content: center;
 }
-
+.buy-list {
+    margin: 0;
+}
 .buy-list > li {
     list-style-position: inside;
 
