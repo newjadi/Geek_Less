@@ -7,7 +7,7 @@
 
 /* ------------------Начало блока header---------------- */
 header {
-    height: 323px;
+    /* height: 323px; */
     color: #ffffff;
     font-size: 20px;
     background-color: #445162;
@@ -44,7 +44,7 @@ header > .list {
     font-size: 60px;
 }
 
-.imgContainer > .img {
+header img {
     margin: 50px;
     background-color: #ffffff;
 }
@@ -54,7 +54,7 @@ header > .list {
 /* ----------- Начало секции About your product---------- */
 
 .about {
-    height: 343px;
+    /* height: 343px; */
     color: #333333;
     font-size: 16px;
     line-height: 36px;
@@ -84,7 +84,7 @@ header > .list {
 /* ----- Начало секции Dignity and pluses product--------- */
 .dignity {
     width: 100%;
-    height: 420px;
+    /* height: 420px; */
     background-color: #f5f5f5;
 
     display: flex;
@@ -132,9 +132,9 @@ header > .list {
 
 /* ----------- Начало секции Scrinshots ------------------- */
 .scrin {
-    height: 487px;
+    /* height: 487px; */
     background-color: #ffffff;
-
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -167,7 +167,7 @@ figcaption {
 
 /*--------------- Начало блока Reviews --------------------*/
 .reviews {
-    height: 424px;
+    /* height: 424px; */
     background-color: #f5f5f5;
 
     display: flex;
@@ -188,6 +188,7 @@ figcaption {
 
 .reviews-img {
     float: left;
+    margin: 20px;
     border-radius: 50%;
     background-color: #445161;
 }
@@ -195,7 +196,7 @@ figcaption {
 
 /*--------------- Начало секции Buy it now ----------------*/
 .buy {
-    height: 656px;
+    /* height: 656px; */
     padding: 0 145px;
 
     display: flex;
